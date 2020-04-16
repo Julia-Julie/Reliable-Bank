@@ -1,0 +1,237 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+/* General settings*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  /* color: #fff; */
+}
+
+.container{
+  max-width: 1100px;
+  margin: auto;  
+  text-align: center;
+}
+
+h1, h2, h3{
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.bg-light{
+  background-color: snow;
+  color: rgb(90, 86, 86);
+}
+
+.bg-dark{
+  background-color:rgb(170, 169, 169);
+  color: snow; ;
+}
+
+.text-primary {
+  color: royalblue;
+  text-shadow: 2px 1px rgb(47, 48, 48);;
+}
+
+.l-heading {
+  font-size: 4rem;
+  color: snow;
+  margin-bottom: 1.8rem;
+  text-shadow: 1px 2px wheat;
+}
+
+h2{
+color: rgb(47, 48, 48);
+padding: 1.2rem 0;
+}
+
+.m-heading{
+  padding-bottom: 0.8rem;
+  margin: 0.5rem;
+  color: rgb(90, 86, 86);
+ text-shadow: 1px 1px black;
+
+
+}
+
+
+
+
+.lead {
+  color: wheat;
+  line-height: 1.4rem;
+  padding: 0.8rem 1rem;
+}
+
+.btn {
+  display: inline-block;
+  background-color: royalblue;
+  padding: 0.8rem 1.3rem;
+  color: wheat;
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  background-color: rgb(73, 113, 231);
+  color: snow;
+}
+
+/* NAVBAR */
+div#nav {
+  position: sticky;
+  top: 0;
+  background-color: snow;
+  color: rgb(90, 86, 86);
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  z-index: 1;
+}
+
+div#nav ul {
+  display: flex;
+  text-align: center;
+}
+
+div#nav ul li a {
+  display: flex;
+  padding: 1rem;
+  margin: 0 0.2rem;
+  color: rgb(90, 86, 86);
+  font-size: 1.1rem;
+}
+
+div#nav ul li a:hover {
+  background-color: royalblue;
+  color: snow;
+  border-radius: 5px;
+}
+
+/* HEADER-Showcase */
+#showcase {
+  background: url(../images/bank.jpg) no-repeat center center/cover;
+  height: 100vh;
+}
+
+#showcase div.showcase-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 0 2rem;
+  /* Overlay */
+  /* position: absolute; */
+  /* top: 103px; */
+  /* left: 0; */
+  /* right: 0; */
+  /* bottom: 0; */
+  background-color: rgba(5, 0, 0, 0.4);
+}
+
+/* Products */
+section#loans div.items{
+  display: flex;
+  padding: 0.2rem 1.5rem;
+  margin-bottom: 1.3rem;
+    
+}
+section#loans div.items div.item{
+  margin: 0.7rem;
+  padding: 0.3rem;
+}
+
+
+
+#loans i{
+  background-color: royalblue;
+  color: wheat;
+  padding: 1rem ;
+  margin-bottom: 1rem;
+  border-radius: 50%;
+  
+}
+
+/* Section - Why */
+#why{
+  /* display: flex; */
+}
+
+#why div{
+  flex: 1;
+}
+
+
+section#why div.why-content{
+display: flex;
+height: 300px;
+flex-direction: row;
+align-items: stretch;
+/* flex-wrap: wrap; */
+}
+
+
+div.why-text{
+  overflow: hidden;
+}
+
+
+div.why-img{
+  background: url(../images/why.jpeg) no-repeat center center/cover;
+ 
+  
+}
+
+.tips{
+  text-align: left;
+  line-height: 1.9rem;
+  padding: 0.5rem 1.2rem;
+  border-radius: 10px;
+}
+
+.tips ul{
+  padding: 0.7rem 2rem;
+
+  list-style: square;
+}
+
+.tips ul li{ 
+border-bottom:rgb(185, 182, 182) 1px dotted ;
+}
+
+/* Section-LOGOS */
+#logos{
+  display: flex;
+}
+#logos .logos-badges{
+  display: flex;
+  height: 170px;
+ 
+}
+
+#logos .logos-badges .image{
+  justify-content: baseline;
+}
+
+#logos .logos-badges img{
+  display: block;
+  margin: auto;
+  width: 70%;
+  border-radius: 80%;
+  padding: 0;
+  margin: 1rem;
+}
