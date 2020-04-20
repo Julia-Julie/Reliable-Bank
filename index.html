@@ -33,10 +33,10 @@
         Bank
       </h1>
       <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Products</a></li>
-        <li><a href="#">Why</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#why">Why</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </div>
 
@@ -94,6 +94,7 @@
     <!-- Section WHY -->
     <section id="why">
       <div class="why-content">
+        <div class="why-img"></div>
         <div class="why-text bg-dark">
           <h2><span class="text-primary">Why</span> you should choose Us?</h2>
           <div class="tips">
@@ -120,8 +121,9 @@
         </div>
 
         <!--  -->
-        <div class="why-img"></div>
+          <!-- <div class="why-img"></div> -->
       </div>
+    </section>
 
       <!-- Section-logos -->
       <section id="logos" class="bg-light">
@@ -148,6 +150,63 @@
           </div>
         </div>
       </section>
+    <!-- </section> -->
+
+    <!-- Section - CONTACT -->
+    <section id="contact">
+      <div class="contact-content">
+       
+        <!--  -->
+        <div class="contact-form">
+          <h2 class="m-heading"><span class="text-primary">Contact </span> Us</h2>
+          <p>Please use the form below to contact us</p>
+            <form action="#">
+              <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" name="name" id="name" placeholder="Enter your full name">
+              </div>
+
+              <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="text" name="phone" id="phone" placeholder="Enter your phone">
+              </div>
+
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Enter your email">
+              </div>
+              
+              <div class="form-group">
+                <label for="message">Your message</label>
+               <textarea name="message" id="message" cols="30" rows="10"></textarea> 
+              </div>
+              <input type="submit" value="Send" class="btn">
+              
+
+            </form>
+          </div>
+
+
+
+        </div>
+
+
+        <!--  -->
+          <div class="map"></div>
+
+          
+      </div>
     </section>
+
+    <footer class="main-footer">
+      <div class="container">
+        <p>Copyright &copy; 2020, Reliable Bank, All Rights Reserved</p>
+      </div>
+    </footer>
+
+    <script src="./js/script.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAu5M3gR5Zq9wVW-Wk5vXr8N5qPn6DRCOw&callback=initMap"
+    type="text/javascript"></script>
   </body>
 </html>
+

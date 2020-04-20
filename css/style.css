@@ -34,8 +34,8 @@ ul {
 }
 
 .bg-dark{
-  background-color:rgb(170, 169, 169);
-  color: snow; ;
+  background-color: rgb(209, 203, 192);
+  color: #fff ;
 }
 
 .text-primary {
@@ -147,7 +147,7 @@ div#nav ul li a:hover {
 section#loans div.items{
   display: flex;
   padding: 0.2rem 1.5rem;
-  margin-bottom: 1.3rem;
+  /* margin-bottom: 1.3rem; */
     
 }
 section#loans div.items div.item{
@@ -167,9 +167,10 @@ section#loans div.items div.item{
 }
 
 /* Section - Why */
-#why{
-  /* display: flex; */
-}
+/* #why{
+ margin: 0;
+ padding: 0;
+} */
 
 #why div{
   flex: 1;
@@ -235,3 +236,54 @@ border-bottom:rgb(185, 182, 182) 1px dotted ;
   padding: 0;
   margin: 1rem;
 }
+/* Section-CONTACT */
+#contact{
+  display: flex;
+
+
+}
+
+#contact  > div{
+  flex: 1;
+}
+
+#contact .contact-form,
+#contact .contact-form h2{
+  padding: 1rem;
+  background-color: rgb(209, 203, 192);
+  color: snow;
+}
+
+#contact .form-group{
+  padding: 0.5rem;
+  /* margin: 1rem 1.5rem; */
+}
+
+#contact label{
+  display: block;
+  padding-bottom: 0.7rem;
+}
+
+#contact input,
+#contact textarea{
+  width: 100%;
+  border-radius: 5px;
+}
+
+/* #contact input:focus,
+#contact textarea:focus{
+  background-color: #fff;
+} */
+
+#contact input{
+  padding: 0.7rem;
+}
+
+
+/* Footer */
+footer{
+  background-color: snow;
+  color: rgb(90, 86, 86);
+  padding: 1rem 0;
+}
+
