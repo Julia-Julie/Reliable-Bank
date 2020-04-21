@@ -82,11 +82,13 @@ padding: 1.2rem 0;
   font-size: 1.2rem;
   border: none;
   border-radius: 4px;
+  cursor: pointer;
 }
 
 .btn:hover {
   background-color: rgb(73, 113, 231);
   color: snow;
+  
 }
 
 /* NAVBAR */
@@ -144,20 +146,20 @@ div#nav ul li a:hover {
 }
 
 /* Products */
-section#loans div.items{
+section#products div.items{
   display: flex;
   padding: 0.2rem 1.5rem;
   /* margin-bottom: 1.3rem; */
     
 }
-section#loans div.items div.item{
+section#products div.items div.item{
   margin: 0.7rem;
   padding: 0.3rem;
 }
 
 
 
-#loans i{
+#products i{
   background-color: royalblue;
   color: wheat;
   padding: 1rem ;
@@ -226,12 +228,21 @@ border-bottom:rgb(185, 182, 182) 1px dotted ;
 
 #logos .logos-badges .image{
   justify-content: baseline;
+  /* justify-content: center;
+  align-items: baseline; */
+
+}
+div.image{
+  justify-content: center;
+  align-items: baseline;
+  width: 200px;
 }
 
 #logos .logos-badges img{
   display: block;
   margin: auto;
   width: 70%;
+  height: 80%;
   border-radius: 80%;
   padding: 0;
   margin: 1rem;

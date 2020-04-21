@@ -1,0 +1,18 @@
+/*  Align to left*/
+#products .items .item {
+    display: flex;
+    text-align: left;
+}
+#products .items .item h3{
+    text-align: left;
+}
+
+#products .items .item i{
+    margin-right: 1.2rem;
+    align-self: center;
+    margin-bottom: 0;
+}
+
+#contact .map{
+    flex: 2;
+}

@@ -9,6 +9,7 @@
       integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="css/style.css" />
     <link
       rel="stylesheet"
       media="screen and (max-width: 768px)"
@@ -19,7 +20,7 @@
       media="screen and (min-width: 1100px)"
       href="css/widescreen.css"
     />
-    <link rel="stylesheet" href="css/style.css" />
+    <!-- <link rel="stylesheet" href="css/style.css" /> -->
     <title>Relible Bank | Debits and Credits</title>
   </head>
   <body>
@@ -33,7 +34,7 @@
         Bank
       </h1>
       <ul>
-        <li><a href="#home">Home</a></li>
+        <li><a href="#showcase">Home</a></li>
         <li><a href="#products">Products</a></li>
         <li><a href="#why">Why</a></li>
         <li><a href="#contact">Contact</a></li>
@@ -51,41 +52,51 @@
           ea, autem velit fugit eius quis similique corrupti officiis atque
           mollitia at! Veritatis voluptate reiciendis, nemo earum debitis alias!
         </p>
-        <div class="btn">Read more</div>
+     
+        <a  class="btn" href="#why">Read more</a>
       </div>
     </header>
 
     <!-- Section - PRODUCTS -->
-    <section id="loans" class="bg-light">
+    <section id="products" class="bg-light">
       <div class="container">
         <h2 class="text-primary">Products</h2>
         <div class="items">
           <!--  -->
           <div class="item">
             <i class="fas fa-credit-card fa-2x"></i>
-            <h3 class="m-heading">Credit cards</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Architecto quaerat esse ad quod quia ipsam!
-            </p>
+            <div>
+              <h3 class="m-heading">Credit cards</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Architecto quaerat esse ad quod quia ipsam!
+              </p> 
+            </div>
+           
           </div>
           <!--  -->
           <div class="item">
             <i class="fas fa-coins fa-2x"></i>
-            <h3 class="m-heading">Debit cards</h3>
-            <p>
+            <div>
+              <h3 class="m-heading">Debit cards</h3>
+              <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit.
               Architecto quaerat esse ad quod quia ipsam!
             </p>
+            </div>
+            
           </div>
           <!--  -->
           <div class="item">
             <i class="fas fa-globe fa-2x"></i>
-            <h3 class="m-heading">Online services</h3>
-            <p>
+            <div>
+              <h3 class="m-heading">Online services</h3>
+              <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit.
               Architecto quaerat esse ad quod quia ipsam!
-            </p>
+              </p>
+            </div>
+           
           </div>
         </div>
       </div>
@@ -120,8 +131,7 @@
           </div>
         </div>
 
-        <!--  -->
-          <!-- <div class="why-img"></div> -->
+        
       </div>
     </section>
 
@@ -132,25 +142,25 @@
             Our <span class="text-primary"> Clients</span>
           </h2>
           <div class="logos-badges">
-            <div class="image">
-              <img src="./images/logo1.jpg" alt="Client" />
-            </div>
-            <div class="image">
-              <img src="./images/logo2.jpg" alt="Client" />
-            </div>
-            <div class="image">
-              <img src="./images/logo3.jpg" alt="Client" />
-            </div>
-            <div class="image">
-              <img src="./images/logo4.jpg" alt="Client" />
-            </div>
-            <div class="image">
-              <img src="./images/logo5.jpg" alt="Client" />
-            </div>
+              <div class="image">
+                <img src="./images/logo2.jpg" alt="Client" />
+              </div>
+              <div class="image">
+                <img src="./images/logo1.jpg" alt="Client" />
+              </div>
+              <div class="image">
+                <img src="./images/logo3.jpg" alt="Client" />
+              </div>
+              <div class="image">
+                <img src="./images/logo4.jpg" alt="Client" />
+              </div>
+              <div class="image">
+                <img src="./images/logo5.jpg" alt="Client" />
+              </div>
           </div>
         </div>
       </section>
-    <!-- </section> -->
+  
 
     <!-- Section - CONTACT -->
     <section id="contact">
@@ -203,8 +213,12 @@
         <p>Copyright &copy; 2020, Reliable Bank, All Rights Reserved</p>
       </div>
     </footer>
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
 
+<!-- Local js file -->
     <script src="./js/script.js"></script>
+<!-- Google Maps -->
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAu5M3gR5Zq9wVW-Wk5vXr8N5qPn6DRCOw&callback=initMap"
     type="text/javascript"></script>
   </body>

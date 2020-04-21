@@ -1,0 +1,35 @@
+
+/*  Align to left*/
+section#products div.items{
+    display: block;
+    padding-left: 1rem;
+}
+#products .items .item {
+    display: flex;
+    text-align: left;
+}
+#products .items .item h3{
+    text-align: left;
+}
+
+#products .items .item i{
+    margin-right: 1.2rem;
+    align-self: center;
+    margin-bottom: 0;
+}
+
+@media (max-width: 500px){
+    div#nav{
+        display: block;
+        flex-direction: column;
+        /* align-items: center;
+        justify-content: center; */
+    }
+    div#nav ul {
+       justify-content: center;
+      }
+      div#nav ul li a {
+        padding: 1.2rem;
+      }  
+    
+}
