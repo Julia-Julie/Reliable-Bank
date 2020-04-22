@@ -10,13 +10,15 @@
   /* color: #fff; */
 }
 
-.container{
+.container {
   max-width: 1100px;
-  margin: auto;  
+  margin: auto;
   text-align: center;
 }
 
-h1, h2, h3{
+h1,
+h2,
+h3 {
   text-align: center;
 }
 
@@ -28,19 +30,19 @@ ul {
   list-style-type: none;
 }
 
-.bg-light{
+.bg-light {
   background-color: snow;
   color: rgb(90, 86, 86);
 }
 
-.bg-dark{
+.bg-dark {
   background-color: rgb(209, 203, 192);
-  color: #fff ;
+  color: #fff;
 }
 
 .text-primary {
   color: royalblue;
-  text-shadow: 2px 1px rgb(47, 48, 48);;
+  text-shadow: 2px 1px rgb(47, 48, 48);
 }
 
 .l-heading {
@@ -50,22 +52,17 @@ ul {
   text-shadow: 1px 2px wheat;
 }
 
-h2{
-color: rgb(47, 48, 48);
-padding: 1.2rem 0;
+h2 {
+  color: rgb(47, 48, 48);
+  padding: 1.2rem 0;
 }
 
-.m-heading{
+.m-heading {
   padding-bottom: 0.8rem;
   margin: 0.5rem;
   color: rgb(90, 86, 86);
- text-shadow: 1px 1px black;
-
-
+  text-shadow: 1px 1px black;
 }
-
-
-
 
 .lead {
   color: wheat;
@@ -88,7 +85,6 @@ padding: 1.2rem 0;
 .btn:hover {
   background-color: rgb(73, 113, 231);
   color: snow;
-  
 }
 
 /* NAVBAR */
@@ -146,26 +142,22 @@ div#nav ul li a:hover {
 }
 
 /* Products */
-section#products div.items{
+section#products div.items {
   display: flex;
   padding: 0.2rem 1.5rem;
   /* margin-bottom: 1.3rem; */
-    
 }
-section#products div.items div.item{
+section#products div.items div.item {
   margin: 0.7rem;
   padding: 0.3rem;
 }
 
-
-
-#products i{
+#products i {
   background-color: royalblue;
   color: wheat;
-  padding: 1rem ;
+  padding: 1rem;
   margin-bottom: 1rem;
   border-radius: 50%;
-  
 }
 
 /* Section - Why */
@@ -174,71 +166,66 @@ section#products div.items div.item{
  padding: 0;
 } */
 
-#why div{
+#why div {
   flex: 1;
 }
 
-
-section#why div.why-content{
-display: flex;
-height: 300px;
-flex-direction: row;
-align-items: stretch;
-/* flex-wrap: wrap; */
+section#why div.why-content {
+  display: flex;
+  height: 300px;
+  flex-direction: row;
+  align-items: stretch;
+  /* flex-wrap: wrap; */
 }
 
-
-div.why-text{
+div.why-text {
   overflow: hidden;
 }
 
-
-div.why-img{
+div.why-img {
   background: url(../images/why.jpeg) no-repeat center center/cover;
- 
-  
 }
 
-.tips{
+.tips {
   text-align: left;
   line-height: 1.9rem;
   padding: 0.5rem 1.2rem;
   border-radius: 10px;
 }
 
-.tips ul{
+.tips ul {
   padding: 0.7rem 2rem;
 
   list-style: square;
 }
 
-.tips ul li{ 
-border-bottom:rgb(185, 182, 182) 1px dotted ;
+.tips ul li {
+  border-bottom: rgb(185, 182, 182) 1px dotted;
 }
 
 /* Section-LOGOS */
-#logos{
+#logos {
   display: flex;
 }
-#logos .logos-badges{
+#logos .logos-badges {
   display: flex;
   height: 170px;
- 
 }
 
-#logos .logos-badges .image{
+#logos .logos-badges .image {
   justify-content: baseline;
   /* justify-content: center;
   align-items: baseline; */
-
 }
-div.image{
+div.image {
   justify-content: center;
   align-items: baseline;
-  width: 200px;
+  width: 100%;
+  height: auto;
+  margin: 0 1.3rem;
 }
 
-#logos .logos-badges img{
+#logos .logos-badges img {
   display: block;
   margin: auto;
   width: 70%;
@@ -248,35 +235,33 @@ div.image{
   margin: 1rem;
 }
 /* Section-CONTACT */
-#contact{
+#contact {
   display: flex;
-
-
 }
 
-#contact  > div{
+#contact > div {
   flex: 1;
 }
 
 #contact .contact-form,
-#contact .contact-form h2{
+#contact .contact-form h2 {
   padding: 1rem;
   background-color: rgb(209, 203, 192);
   color: snow;
 }
 
-#contact .form-group{
+#contact .form-group {
   padding: 0.5rem;
   /* margin: 1rem 1.5rem; */
 }
 
-#contact label{
+#contact label {
   display: block;
   padding-bottom: 0.7rem;
 }
 
 #contact input,
-#contact textarea{
+#contact textarea {
   width: 100%;
   border-radius: 5px;
 }
@@ -286,15 +271,13 @@ div.image{
   background-color: #fff;
 } */
 
-#contact input{
+#contact input {
   padding: 0.7rem;
 }
 
-
 /* Footer */
-footer{
+footer {
   background-color: snow;
   color: rgb(90, 86, 86);
   padding: 1rem 0;
 }
-

@@ -32,4 +32,52 @@ section#products div.items{
         padding: 1.2rem;
       }  
     
+
+
+      /* Why */
+
+#why .why-img{
+    display: none;
 }
+
+#why .why-text{
+    width: 100%;
+}
+
+
+/* LOGOS */
+#logos .logos-badges .image:last-child{
+    display: none;
+}
+
+
+div.image{
+   height: 60%;
+   margin: 0;
+  }
+
+
+  /* CONTACT */
+  #contact{
+      display: block;
+  }
+
+  #contact .map{
+      height: 250px;
+  }
+
+/* section#contact div.contact-form{
+      order: 2;
+  }
+section#contact div.map{
+    order: 1;
+
+} */
+
+.l-heading{
+    font-size: 3rem;
+}
+
+}
+
+
